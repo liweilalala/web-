@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<script>
+    window.onbeforeunload = function(){
+      return "onbeforeunload is work";
+    }//这个事件在ie浏览器可用
+	var myarray = new Array()
+	myarray[0] = "星期一"
+	for(var i in myarray)
+	{
+		document.write(myarray[i] + "<br/>")
+	}
+    </script>
+</head>
+<body>
+	欢迎学习JavaScript
+</body>
+</html>
